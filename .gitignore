@@ -2,9 +2,6 @@
 /bin/
 /bin/*
 
-# Vendor directory
-/vendor/
-
 # Test binaries
 *.test
 
