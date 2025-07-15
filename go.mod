@@ -1,8 +1,6 @@
 module k8s-validator
 
-go 1.22.0
-
-toolchain go1.24.3
+go 1.22
 
 require (
 	github.com/fatih/color v1.13.0
