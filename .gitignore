@@ -1,0 +1,23 @@
+# Binaries for programs and plugins
+/bin/
+/bin/*
+
+# Vendor directory
+/vendor/
+
+# Test binaries
+*.test
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE configs
+*.idea/
+*.vscode/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log

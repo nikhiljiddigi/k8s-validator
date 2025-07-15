@@ -1,0 +1,20 @@
+rules:
+  Missing Labels:
+    global: false
+    kinds: []
+    files:
+      # - legacy-pod
+    namespaces:
+      # - "dev-*"
+    containers: {}
+
+  Missing Resource Limits:
+    global: false
+    kinds:
+      - Job
+    files:
+      - multi-container-pod        # just the name here
+    namespaces: []
+    containers:
+      multi-container-pod:        # now a top-level "containers" map
+        - sidecar

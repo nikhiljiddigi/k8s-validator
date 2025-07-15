@@ -1,0 +1,2 @@
+appName: helm-app
+image: nginx:latest
